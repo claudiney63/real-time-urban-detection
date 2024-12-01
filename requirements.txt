@@ -1,1 +1,27 @@
+# Frameworks de Aprendizado Profundo
+torch==2.0.1          # PyTorch
+torchvision==0.15.2   # Biblioteca de visão computacional para PyTorch
+
+# Manipulação de Imagens e Vídeos
+opencv-python==4.8.0.74   # Processamento de imagens e vídeos
+Pillow==9.2.0             # Manipulação de imagens (PIL)
+
+# Manipulação de Dados
+numpy==1.24.3            # Operações numéricas
+pandas==2.0.3            # Análise de dados estruturados
+
+# Visualização
+matplotlib==3.8.0        # Visualização de gráficos
+seaborn==0.12.2          # Gráficos estatísticos
+plotly==5.15.0           # Gráficos interativos
+
+# Ferramentas para Datasets
+pyyaml==6.0              # Manipulação de arquivos YAML
+tqdm==4.66.1             # Barra de progresso
+
+# Métricas de Avaliação
+scikit-learn==1.3.1      # Algoritmos e métricas de aprendizado de máquina
+
+# Utilitários
+albumentations==1.3.1    # Data augmentation para imagens
 

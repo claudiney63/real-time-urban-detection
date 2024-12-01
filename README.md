@@ -10,8 +10,25 @@ Projeto de detecção e classificação de objetos urbanos usando Visão Computa
 - **`results/`**: Resultados obtidos, incluindo imagens e métricas.  
 - **`docs/`**: Documentação do projeto.
 
-## Requisitos
-Instale as dependências utilizando o comando:
+## Como Configurar o Ambiente
+
+### 1. Criar um Ambiente Virtual
+Antes de instalar as dependências, crie um ambiente virtual para isolar o projeto. 
+
+No Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+No Linux/Mac:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 2. Instalar Dependências
+Com o ambiente virtual ativo, instale as bibliotecas necessárias:
 ```bash
 pip install -r requirements.txt
 ```
