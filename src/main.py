@@ -7,7 +7,7 @@ from pycocotools.coco import COCO
 
 # Caminhos para imagens e anotações
 ANNOTATION_FILE = './data/annotations/instances_val2017.json'
-IMAGE_DIR = './data/val2017/'
+IMAGE_DIR = './data/val2017'
 
 # Inicializa o COCO API
 coco = COCO(ANNOTATION_FILE)
